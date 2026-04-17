@@ -1,6 +1,11 @@
 """
 Trader19_osmium — adopt Frankfurt Hedgehogs' static-asset approach.
 
+LIVE RESULT: 2700 OSMIUM PnL (best single-product OSMIUM submission to date).
+Broke through the ~2500 ceiling that Traders 3/15/18 all hit.
+Gain attributable to: deep bid_wall+1 default + zero-edge clearing + wall_mid.
+
+
 Four differences vs our Trader18:
   1. wall_mid (midpoint of outermost visible bid/ask) as FV reference,
      instead of fixed FV or raw mid.
